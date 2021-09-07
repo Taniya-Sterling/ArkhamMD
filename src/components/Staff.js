@@ -26,7 +26,7 @@ const StaffComponent = () => {
         <div>
             <h1 id = 'Staff'> Staff </h1> 
             <div  className = 'Staff-container'>
-            {Staffelements}
+            < StaffComponent />
             </div>
         </div>
         

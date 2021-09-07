@@ -13,11 +13,13 @@ import StaffComponent from './components/Staff';
 // const [userTodos, setUserTodos] = useState([]);
 
 const App = () => {
+
+    
     return (
         <div>
             return (
             <div>
-            <StaffComponent/>
+            < StaffComponent/>
             </div>
             )   
             
@@ -26,4 +28,4 @@ const App = () => {
  
 }
 
-ReactDOM.render(<App/>,document.getElementById('App'))
+ReactDOM.render(<App />,document.getElementById('App'))
