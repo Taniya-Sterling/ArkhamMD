@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import ReactDOM from 'react-dom';
 import fetchData from './api/api'
+import StaffComponent from './components/Staff';
 // import {
 //     BrowserRouter as Router,
 //     Link,
@@ -12,25 +13,17 @@ import fetchData from './api/api'
 // const [userTodos, setUserTodos] = useState([]);
 
 const App = () => {
-    const [users, setUsers] = useState([]);
-    fetchData('?results=5')
-    // .then(users => {
-    //   setUserList(users)})
-    // useEffect(() => {
-       
-    //       })
-    //       .catch(error => {
-    //         // something something errors
-    //       });
-    //   }, []);
-    
-
     return (
         <div>
-            <div>ArkhamMD</div>
+            return (
+            <div>
+            <StaffComponent/>
+            </div>
+            )   
             
         </div>
     )
+ 
 }
 
-ReactDOM.render(<App/>,document.getElementById('app'))
+ReactDOM.render(<App/>,document.getElementById('App'))
